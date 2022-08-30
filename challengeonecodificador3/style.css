@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+
+.main form{
+    display: flex;
+    margin: auto;
+    width: 900px;
+    height:400px;
+    padding: 5px;
+}
+.resume{
+    width: 100%;
+    float: left;
+
+}
+.logoImagen{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.nota{
+    float: inherit;
+    margin-left: 20%;
+    font-size: 25px;
+}
+.noti{
+    float: inherit;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+main form textarea.input-text{
+    float: left; 
+    width: 70%;
+    height: 90%;    
+    border-radius: 24px;
+    background-color: #e5e5e5;
+  
+}
+
+.input-text{
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 60%;
+    height: 90%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+
+}
+
+main form .result-copy{
+    margin-left: 1%;
+    margin-top: 1%;
+    float: right;
+    width: 30%;
+    height: 90%;   
+    border-radius: 24px;
+    background-position: 18px;
+    background-image: url("\Muñeco.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #0A3871;
+    font-size: 20px;
+    background-color: white;
+
+}
+
+.buttons {
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+button {
+    margin-left:20%;
+    height: 10vh;
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    color :#0A3871;
+    border-radius: 10px;
+    border-color: #0A3871;
+    font-size: 0.65em;
+}
+
+button:hover {
+    border: none;
+    color: #0A3871;
+    background-color: white;
+   
+}
+
+
+
+
