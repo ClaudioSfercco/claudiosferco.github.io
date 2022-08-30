@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html lang="es">
+	
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" href="encriptador.css">
+	    <title>Decodificador de Texto</title>
+	</head>
+	
+	<body>
+	    <header>
+	        <div class="resume">
+			    <img class="logoImagen" src="\Logo.png" alt="Logo de Alura Letra A">
+	            <p class= "nota"> ENCRIPTADOR DE MENSAJES</p>	        
+	        </div>
+	    </header>
+        <p class="noti">Ingrese el texto aqui</p>
+		<main class="main">
+	        <form class="form">
+	            <textarea class="input-text" type="text" cols="30" rows="10"></textarea>								
+				<div class="result-copy">
+					<div class="exibir-msg"></div>
+	                <div class="erro-copy"><p id="msg-error"></p>	
+	            </div>	
+	        </form>			
+	    </main>
+		        <div class="buttons">
+	                <button id="codificar">Codificar</button>
+	                <button id="decodificar">Decodificar</button>
+					<button id="copy">Copiar</button></div>
+	            </div>
+		<script type="text/javascript" src="./encriptador.js">  </script>
+		<p class="note"> "Codifica Textos solo en Minusculas, sin Caracteres, ni Acento".</p>
+	</body>
+	</html>
